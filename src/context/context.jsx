@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const CardContext = createContext ()
 
-export const CardData = ({children}) => {
+export const Data = ({children}) => {
     const cards = [
         {
             id: 1,
@@ -55,6 +55,6 @@ export const CardData = ({children}) => {
     )
 }
 
-CardData.PropTypes = {
+Data.PropTypes = {
     children: PropTypes.node.isRequired
 }
