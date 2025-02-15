@@ -1,4 +1,4 @@
-
+import SendIcon from '@mui/icons-material/Send'
 
 export default function Footer () {
     return (
@@ -10,16 +10,18 @@ export default function Footer () {
           If you have any questions or would like to book a tour with us, please
           don't hesitate to contact us.
         </p>
+        <div className="three">
         <p style={{marginTop: "2rem"}}>Phone: +250 788 123 456</p>
         <p style={{textDecoration: "underline"}}>Email: info@rwandatourism.com</p>
         <p>Address: Kigali, Rwanda</p>
+        </div>
         <h3>Subscribe to our newspaper</h3>
-        <form>
+        <for>
           <input type="email" placeholder="Input your email here" />
           <button type="submit">
             <SendIcon />
           </button>
-        </form>
+        </for>
       </div>
       <div className="navi">
         <div className="top foot">
@@ -28,16 +30,16 @@ export default function Footer () {
             alt="logo"
           />
           <div className="social-icons">
-            <div className="icon">
+            <div className="icons">
               <i className="fa-brands fa-facebook-f"></i>
             </div>
-            <div className="icon">
+            <div className="icons">
               <i className="fa-brands fa-twitter"></i>
             </div>
-            <div className="icon">
+            <div className="icons">
               <i className="fa-brands fa-instagram"></i>
             </div>
-            <div className="icon">
+            <div className="icons">
               <i className="fa-brands fa-linkedin-in"></i>
             </div>
           </div>

@@ -9,8 +9,8 @@ export default function Hero() {
                 <p>Discover the Land of a Thousand Hills</p>
             </div>
             <div className="navig-arrow">
-                <div className="left">&#10094;</div>
-                <div className="right">&#10095;</div>
+                <div className="arrow left">&#10094;</div>
+                <div className="arrow right">&#10095;</div>
             </div>
         </div>
         </>

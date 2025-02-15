@@ -1,8 +1,8 @@
 import { useContext } from 'react';
-
+import { CardContext } from '../context/context';
 
 export default function Destination() {
-    const { destination } = useContext(CardContext)
+    const { destinations } = useContext(CardContext)
     return (
         <section className="destination">
             <div className="navigation">
@@ -10,7 +10,7 @@ export default function Destination() {
             <button className="nav-right"></button>
             </div>
             <div className="destinations-card">
-                {destination.map((destinations, index) => (
+                {destinations.map((destinations, index) => (
                     <div key={index} className="destinations">
                     <img src={destinations.image} alt={destinations.name} />
                     <h2>{destinations.name}</h2>

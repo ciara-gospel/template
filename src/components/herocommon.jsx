@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 
 export default function Herocommon ({ title }) {
     return (

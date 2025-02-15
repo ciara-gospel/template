@@ -1,4 +1,4 @@
-export default function () {
+export default function Contact () {
     return (
         <>
         <div className="text">
@@ -25,21 +25,34 @@ export default function () {
                     </div>
              </div>
              <div className="row">
-            <div className="mb-4">
+            <div className="mb-41">
               <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
               <input type="email"className="form-control"id="exampleFormControlInput1"placeholder="name@example.com"/>
               </div>
             </div>
-            <div className="row">
+            <div className="botn">
+            <label htmlFor="exampleFormControlInput1" className="form-label">Phone number</label>
             <div className="input-group flex-nowrap mb-4 ">
-              <span className="input-group-text" id="addon-wrapping">+237</span>
-              <input type="text"className="form-control"placeholder="Username"aria-label="Username"aria-describedby="addon-wrapping"/>
+              <select name="number" id="number">
+                <option value="">+237</option>
+                <option value="">+240</option>
+                <option value="">+50</option>
+                <option value="">+250</option>
+                <option value="">+233</option>
+                <option value="">+222</option>
+                <option value="">+211</option>
+                <option value="">+2</option>
+                <option value="">+218</option>
+                <option value="">+80</option>
+                <option value="">+280</option>
+              </select>
+              <input type="text"className="control"placeholder="Input your phone number here"aria-label="Username"aria-describedby="addon-wrapping"/>
             </div>
           </div>
           <div className="row">
             <div className="mb-4">
               <label htmlFor="exampleFormControlTextarea1"className="form-label">Message</label>
-              <textarea className="form-control"id="exampleFormControlTextarea1"rows={3}defaultValue={""}/>
+              <textarea className="form-control"id="exampleFormControlTextarea1"rows={3}write a message={""}/>
             </div>
           </div>
           <div className="mb-4 row">

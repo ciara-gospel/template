@@ -4,7 +4,7 @@ import Herocommon from "../components/herocommon";
 import Footer from '../components/footer';
 import Contact from '../components/contact'
 
-export default function ContactUs() {
+export default function Contactus() {
     return (
         <>
           <Head />

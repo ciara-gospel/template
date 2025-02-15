@@ -1,6 +1,6 @@
 export default function Searchbar() {
     return (
-        <div className="sear">
+        <div className="search">
             <div className="enter">
                 <input type="text" placeholder="search activities or destinations"/>
                 <i className="fa-solid fa-magnifying-glass"></i>

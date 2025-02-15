@@ -5,7 +5,7 @@ import Packagetext from "../components/packagetext";
 import DisplayCard from "../components/displaycard";
 import Footer from '../components/footer';
 
-export default function Package() {
+export default function Packages() {
     return (
         <>
           <Head/>
