@@ -63,14 +63,14 @@ export default function About() {
           </div>
           <div className="article">
           <p>
-              Welcome to Africa Wizzy Safari, a leading tourism company based in
-              Rwanda. We have been in business for over 5 years and are
-              committed to providing top-quality tours and services to our
-              clients. Our mission is to showcase the beauty and culture of
-              Rwanda to visitors from around the world, and to contribute to the
-              sustainable development of the country through responsible tourism
-              practices.
-            </p>
+          At Africa Wizzy safari, we offer a wide 
+          range of tours and activities, including 
+          cultural and historical tours, wildlife 
+          safaris, mountain gorilla trekking, and 
+          more. Our experienced and knowledgeable 
+          guides will ensure that you have a safe 
+          and enjoyable experience while exploring 
+          the stunning landscapes and rich culture of Rwanda.</p>
             <img
               src="https://s3-alpha-sig.figma.com/img/7600/56f9/b94a31ecc9af090ab219a5e6a933a894?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Pjlfi5S6wY5cND1LBYpgubpDXQbowgzVrBSlW3Do56BWjXA0ia6T9BCQzRWvECgW5K0zPPh6hb~cEvJvoVx0ece8OSG9I8vShlrKrWn0dCZ4506FcLDoiz04WByrzvfG~0gVQVb5BeMv3AVcQm1UmQVd8ZHKK~fBJNOQxqA9-TYMb717tCSLQhUnbljajCC47gKG~YZyAiW9shVeRNu~GWx4AsRLyq~OGt9DP92XHkjHB8c-2n3EU2q8tgGqQueaMSJPrwyRBMmXYZFnPJBuG83stDlpyHRnV3HttS6CXov0iookvBcjKTkyeCiE1x7NKMTqc~bWuNc~ps4gKn~9TA__"
               alt="lodge"
@@ -82,13 +82,16 @@ export default function About() {
               alt="lodge"
             />
             <p>
-              Welcome to Africa Wizzy Safari, a leading tourism company based in
-              Rwanda. We have been in business for over 5 years and are
-              committed to providing top-quality tours and services to our
-              clients. Our mission is to showcase the beauty and culture of
-              Rwanda to visitors from around the world, and to contribute to the
-              sustainable development of the country through responsible tourism
-              practices.
+            We are proud to have received numerous 
+            awards and accolades for our commitment 
+            to excellence, including the RDD award and 
+            the Excellence award. 
+
+
+           Thank you for choosing Africa Wizzy Safari 
+           for your travel needs in Rwanda. We look 
+           forward to welcoming you on one of our 
+           tours soon!
             </p>
           </div>
         </div>

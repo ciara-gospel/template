@@ -49,7 +49,11 @@ span i {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-top: 1rem;
   padding-left: 7rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 
   nav {
     display: flex;
@@ -72,6 +76,11 @@ span i {
         color: #304f47;
         border-bottom: 2px solid transparent;
         animation: fade-in 0.5s ease-in-out forwards;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
       }
     }
   }
@@ -98,11 +107,12 @@ span i {
   border: 1px solid #000;
   font-size: 1rem;
   font-family: monospace;
+  padding: 0.5rem;
 }
 
 .hero-state {
   height: 80vh;
-  background: linear-gradient(#00000066, #00000054), url('https://wallpapercave.com/dwp1x/wp12812509.jpg');
+  background: linear-gradient(#0006, #00000054), url('https://wallpapercave.com/dwp1x/wp12812509.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,7 +210,7 @@ span i {
 
 .enter input {
   width: 87%;
-  padding: 10px 10px 10px;
+  padding: 10px;
   border-radius: 6px;
   border: none;
 }
@@ -341,9 +351,7 @@ span i {
 }
 
 .nav-button {
-  background-color: transparent;
   border: 2px solid #c7923e;
-  color: #c7923e;
   font-size: 24px;
   width: 40px;
   height: 40px;
@@ -354,6 +362,8 @@ span i {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s, color 0.3s;
+  background-color: #c7923e;
+  color: #fff;
 }
 
 .nav-right {
@@ -372,37 +382,14 @@ span i {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1rem;
-  margin-bottom: 1rem;
-
-  img {
-    width: 50px;
-    height: 50px;
-  }
-}
-
 .menu {
   display: flex;
   gap: 1rem;
 }
 
-.log {
-  padding: 0.5rem;
-  background-color: #c7923e;
-  color: #fff;
-}
-
 .nav-right:hover {
   background-color: #fff;
   color: #c7923e;
-}
-
-.nav-button {
-  background-color: #c7923e;
-  color: #fff;
 }
 
 .destinations-card {
@@ -436,6 +423,10 @@ span i {
     line-height: 19.2px;
     font-weight: 7000;
   }
+}
+
+h3 {
+  margin-bottom: 1.5rem;
 }
 
 .client {
@@ -480,7 +471,7 @@ span i {
   margin: 0 1rem;
   width: 300px;
   height: 380px;
-  font-family: 'Mulish', sans-serif;
+  font-family: Mulish, sans-serif;
 }
 
 .colors {
@@ -517,9 +508,7 @@ footer {
   width: 100%;
   height: 466px;
   position: relative;
-  background: linear-gradient(#304f4780, #304f4780),
-              url("https://goafricaexpeditions.com/wp-content/uploads/2024/03/lake-kivu-rwanda-1-636x426.jpg")
-              no-repeat bottom / cover;
+  background: linear-gradient(#304f4780, #304f4780),url("https://goafricaexpeditions.com/wp-content/uploads/2024/03/lake-kivu-rwanda-1-636x426.jpg")no-repeat bottom / cover;
 }
 
 .footer {
@@ -535,17 +524,6 @@ footer {
   margin-bottom: 4rem;
 }
 
-h3 {
-  margin-bottom: 1.5rem;
-}
-
-for {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
 .arlette input {
   padding: 1rem;
   margin-top: 0.5rem;
@@ -553,7 +531,7 @@ for {
   border: none;
 }
 
-.fleche button{
+.fleche button {
   background-color: #c7923e;
   color: #fff;
   padding: 0.7rem;
@@ -612,7 +590,7 @@ for {
     font-weight: 700;
     font-size: 3.9rem;
     line-height: 74.4px;
-    font-family: 'lora', serif;
+    font-family: lora, serif;
     padding: 2rem 0;
   }
 
@@ -708,8 +686,13 @@ for {
   min-width: 768px;
   height: 188px;
   margin: 60px auto;
-  padding: 0 10px;
   margin-bottom: 100px;
+  color: #11142d;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  padding: 2% 0;
 
   & h1 {
     font-size: 62px;
@@ -727,15 +710,6 @@ for {
   }
 }
 
-.text {
-  color: #11142d;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 400;
-  text-align: left;
-  padding: 2% 0;
-}
-
 .form {
   min-width: 768px;
   height: 580px;
@@ -743,7 +717,6 @@ for {
   border: 1px solid var(--tex-color);
   padding: 3%;
   margin-bottom: 20px;
-  border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 0 4px -2px;
   border-radius: 15px;
@@ -816,7 +789,7 @@ for {
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     border-color: #ebebeb;
-    width: 850px;
+    width: 900px;
   }
 }
 
@@ -832,7 +805,7 @@ select {
   & option {
     background-color: #fff;
     color: #000;
-  } 
+  }
 }
 
 .mb-4 {
@@ -867,7 +840,7 @@ select {
   height: 157px;
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
@@ -876,7 +849,7 @@ select {
   height: 157px;
   border: 1px solid #fff;
   font-size: 16px;
-  box-shadow: 5px 5px 8px #888888;
+  box-shadow: 5px 5px 8px #888;
   border-radius: 30px;
   padding: 4%;
   display: flex;
@@ -886,9 +859,9 @@ select {
   & h3 {
     font-size: 24px;
     font-weight: 700;
-    font-family: "Lora",sans-serif;
+    font-family: "Lora", sans-serif;
     line-height: 28px;
-    color: #11142D;
+    color: #11142d;
   }
 }
 
@@ -912,14 +885,9 @@ select {
   }
 }
 
-.icon span{
+.icon span {
   margin: 0 10px;
   color: #304f47;
-} 
-
-.icon p {
-  color: #304f47;
-  font-size: 16px;
 }
 
 .d-flex icon {
