@@ -6,7 +6,7 @@ export default function Footer () {
       <div className="footer">
       <div className="info">
         <h1>If you have any question, Let us help you!</h1>
-        <p>
+        <p className="long">
           If you have any questions or would like to book a tour with us, please
           don't hesitate to contact us.
         </p>
@@ -17,10 +17,14 @@ export default function Footer () {
         </div>
         <h3>Subscribe to our newspaper</h3>
         <for>
+          <div className="arlette">
           <input type="email" placeholder="Input your email here" />
+          </div>
+          <div className="fleche">
           <button type="submit">
             <SendIcon />
           </button>
+          </div>
         </for>
       </div>
       <div className="navi">
@@ -45,7 +49,7 @@ export default function Footer () {
           </div>
         </div>
         <p className="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        <div className="links">
+        <div className="line">
           <div className="column">
             <a href="#">Home</a>
             <a href="#">Testimonials</a>
@@ -69,7 +73,7 @@ export default function Footer () {
         </div>
       </div>
       </div>
-      <div className="copyright">
+      <div className="copy">
         <p>Copyright Africa Wizzy Safari 2022</p>
       </div>
     </footer>

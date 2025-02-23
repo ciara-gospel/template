@@ -19,7 +19,7 @@ export default function Searchbar() {
                     <p className="detail">All <i className="fa-solid fa-caret-down"></i></p>
                 </div>
             </div>
-            <button className="sign">sign in</button>
+            <button className="sign">Book Now</button>
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function Contact () {
         </div>
         
         <div className="form">
-            <div className="text">
+            <div className="box-text">
                 <h4>Contact Us</h4>
             </div>
             <form>
@@ -56,7 +56,7 @@ export default function Contact () {
             </div>
           </div>
           <div className="mb-4 row">
-            <button type="submit" className="btn submit">submit</button>
+            <button type="submit" className="submit">submit</button>
           </div>    
             </form>
         </div>

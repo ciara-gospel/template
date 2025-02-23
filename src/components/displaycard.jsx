@@ -1,10 +1,9 @@
-import { useContext  } from 'react';
-import { CardContext } from '../context/context';
+import { useContext } from "react"
+import { CardContext } from "../context/context"
 import Button from '@mui/material/Button';
 
+export default function DisplayCards() {
 
-
-export default function Displaycard () {
     const {cards} = useContext(CardContext)
 
     return (
@@ -16,11 +15,11 @@ export default function Displaycard () {
                         <div className="card-body">
                             <h3>{card.title}</h3>
                             <p>{card.description}</p>
-                            <Button variant="contained" sx={{ backgroundcolor: '#C7923E'}}> Learn More</Button>
+                            <Button variant="contained"sx={{ backgroundColor: '#C7923E' }}>Learn More</Button>
                         </div>
                     </div>
                 )
-             })}
+            })}
         </div>
     )
 }
