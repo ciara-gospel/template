@@ -14,7 +14,7 @@ export default function Contact () {
                 <h4>Contact Us</h4>
             </div>
             <form>
-                <div className="row">
+                <div className="row-name">
                     <div className="information">
                         <label htmlFor="exampleFormControlInput1"form-label>First name</label>
                         <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Input your first name here"/>
@@ -32,7 +32,7 @@ export default function Contact () {
             </div>
             <div className="botn">
             <label htmlFor="exampleFormControlInput1" className="form-label">Phone number</label>
-            <div className="input-group flex-nowrap mb-4 ">
+            <div className="input-group">
               <select name="number" id="number">
                 <option value="">+237</option>
                 <option value="">+240</option>
@@ -49,13 +49,13 @@ export default function Contact () {
               <input type="text"className="control"placeholder="Input your phone number here"aria-label="Username"aria-describedby="addon-wrapping"/>
             </div>
           </div>
-          <div className="row">
+          <div className="row-list">
             <div className="mb-4">
               <label htmlFor="exampleFormControlTextarea1"className="form-label">Message</label>
               <textarea className="form-control"id="exampleFormControlTextarea1"rows={3}write a message={""}/>
             </div>
           </div>
-          <div className="mb-4 row">
+          <div className="mb-42">
             <button type="submit" className="submit">submit</button>
           </div>    
             </form>
