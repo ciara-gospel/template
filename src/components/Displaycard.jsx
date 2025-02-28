@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { CardContext } from "../context/context"
+import { CardContext } from "../context/Context"
 import Button from '@mui/material/Button';
 
 export default function DisplayCards() {

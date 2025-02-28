@@ -1,9 +1,9 @@
-import Head from "../components/head";
-import Nav from "../components/nav";
-import Herocommon from "../components/herocommon";
-import Packagetext from "../components/packagetext";
-import DisplayCard from "../components/displaycard";
-import Footer from '../components/footer';
+import Head from "../components/Head";
+import Nav from "../components/Nav";
+import Herocommon from "../components/Herocommon";
+import Packagetext from "../components/Packagetext";
+import DisplayCard from "../components/Displaycard";
+import Footer from '../components/Footer';
 
 export default function Packages() {
     return (

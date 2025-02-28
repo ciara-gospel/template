@@ -1,6 +1,6 @@
-import Head from "../components/head";
-import Nav from "../components/nav";
-import Footer from "../components/footer";
+import Head from "../components/Head";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -36,10 +36,7 @@ export default function About() {
           </div>
         </div>
         <div className="image-right">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/4ff2/5fbb/d22801330eccf9aaeedf7388f729ecdf?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZTTtcA7umDxF2EKykhyQ2uyykn-mTE2DzNVFc5lMgwHCD8K2wK7oO3dzX-PIwC70gzpE-2qXuUO2D4HdJuaEAAOHJN8cXFknPUM0Mb6vNZOnrsBEaliVODTTrdsydZvu67~~~2VGTiQK4Avs9X4gVs-v2b250SjTzJh7XeIn70vmVcqUX5u0cvq~V3iGhf8HYpFt3oBE6zT0NoUz4rbdSGKDxKC4iXKJWhEG9Mjo0l8JSobSoGq49nsBaXezkz--3ajxBaiWgUM-20Kd4hk8Af6LGX0BIsieZJlrMTmhJu8HaUBJlzRlA0LQxT1Y7Sfp2HFWSgs3tQg--oqMHVfaHw__"
-            alt="chimpazee"
-          />
+          <img src="https://rangerrick.org/wp-content/uploads/2018/06/Proboscis-Monkeys-Aug2012RR.png" alt="chimpazee"/>
         </div>
       </div>
       <div className="welcome">
@@ -48,7 +45,7 @@ export default function About() {
         <div className="articles">
           <div className="article">
             <img
-              src="https://s3-alpha-sig.figma.com/img/8c88/8b29/002577f7500b2ab4a99aaa7d8e6be7f0?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qxfKYrtgrraOxbQkcoGbu0datTmEWT8fOiREBEnfSGSOPOORCRE4Xlzi5bi6bb4ubdnI0KSAzQJzaePkMx5FqlGVZk1hvopjDvx4yRFDe5PZ3VTenWJhLiB~E40wzZiS0GBTXHkaPlIfIaai2Cu621Xdhxfx~oULmJQyoPdT21py4zRmYUdwz-46B-gVN3mLc9NP9LlLpZNlUWccixA~imYuo59-4ddMVkCguKeu61up00paei6z5VvDNyiYYBUarLUwLqIF8lXoTxzmFZD3weLrC4N5PxvF9tL7AmSiA85TuL2wOPIsAJwaudkh-WWfLfofoAE-BXR-rgx4uVYCqw__"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEyZLux9eEIkQ9Izd5grTUk_5N_UZX_bRQ0IXu6i5M6EZ05vFO8Kp5rAymI1HKefj0c1Q&usqp=CAU"
               alt="lodge"
             />
             <p>
@@ -72,7 +69,7 @@ export default function About() {
           and enjoyable experience while exploring 
           the stunning landscapes and rich culture of Rwanda.</p>
             <img
-              src="https://s3-alpha-sig.figma.com/img/7600/56f9/b94a31ecc9af090ab219a5e6a933a894?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Pjlfi5S6wY5cND1LBYpgubpDXQbowgzVrBSlW3Do56BWjXA0ia6T9BCQzRWvECgW5K0zPPh6hb~cEvJvoVx0ece8OSG9I8vShlrKrWn0dCZ4506FcLDoiz04WByrzvfG~0gVQVb5BeMv3AVcQm1UmQVd8ZHKK~fBJNOQxqA9-TYMb717tCSLQhUnbljajCC47gKG~YZyAiW9shVeRNu~GWx4AsRLyq~OGt9DP92XHkjHB8c-2n3EU2q8tgGqQueaMSJPrwyRBMmXYZFnPJBuG83stDlpyHRnV3HttS6CXov0iookvBcjKTkyeCiE1x7NKMTqc~bWuNc~ps4gKn~9TA__"
+              src="https://thumbs.dreamstime.com/b/pont-entre-l-europe-et-am%C3%A9rique-du-nord-120286147.jpg"
               alt="lodge"
             />
           </div>

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { CardContext } from '../context/context';
+import { CardContext } from '../context/Context';
 
 export default function Destination() {
     const { destinations } = useContext(CardContext)

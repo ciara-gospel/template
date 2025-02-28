@@ -608,7 +608,16 @@ footer {
     font-size: 20px;
     line-height: 25px;
     color: #515151;
+    margin-top: 1rem;
   }
+}
+
+.about-us-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 115%;
+  background-color: #fff;
 }
 
 .image-right img {
@@ -618,22 +627,32 @@ footer {
 }
 
 .booking-total {
-  margin-top: 1.5rem;
+  margin-top: 4rem;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .booking i {
   color: #c7923e;
 }
 
+.detail {
+  display: flex;
+}
+
+for {
+  display: flex;
+  gap: 1rem;
+}
+
 .sign-in {
-  padding: 1.2rem;
+  padding: 1rem;
   background-color: #2c3e2c;
   color: #fff;
   border-radius: 6px;
-  margin-left: 29rem;
-  margin-top: 4rem;
+  width: 100px;
+  margin-top: 5rem;
 }
 
 .welcome {

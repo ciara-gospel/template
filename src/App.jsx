@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Packages from './pages/packages'
-import Home from './pages/home'
-import About from './pages/about'
-import Contactus from './pages/contactus'
-import Gallery from './pages/gallery'
-import { Data } from './context/context'
+import Packages from './pages/Packages'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contactus from './pages/Contactus'
+import Gallery from './pages/Gallery'
+import { Data } from './context/Context'
 import './App.css'
 
 function App() {
