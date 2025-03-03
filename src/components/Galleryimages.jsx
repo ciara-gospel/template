@@ -40,10 +40,10 @@ export default function Galleryimages () {
         <img src="https://s3-alpha-sig.figma.com/img/28b9/b715/ba034abcefb527c735a75e71e050adde?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CiLdUb47WxlS68GR2etl6zne-TJnGFk8voM3yTpqLiwBXF-bKaIwdnA5LWR8Uh0t8F3luXa2yOsbQf5qUb21TLpp7Acdy~19FgANvUys~ngQDzCdf~l4w2mJHi0fxQHGXZx1Cw01qFUx-cD11wmZbAIPcc5vOgjSQCv52Ae51SnRi2g7rurY7jxlarJYk61nkWs0rKD-T~CU7tPDW-i4SL5PAKvdnCAdml-7VdjFbfx8vF4Ie6xAJ7KCeuUJh2R-56mYucR2pTQ1xZvS4RH8eSU1oZqeqCrECn1qltiWGNL3kLCamN8oPLBRyq9PXFxn8SyH6NjB4Vg5NFCH6GYH9A__" alt="" />
       </div>
       <div className='gallery-image'>
-        <img src="https://s3-alpha-sig.figma.com/img/c11e/3451/61a3b99882779105842d20dd26b105f4?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OIqon-kRakdx0tLkSg0i2lolNkKRDI60ZmcTnh~l~NPaC5YjucDPy4BH66nVdmyrAtddzMX5krFZdPuGByVzN3KKMKnP8bPAxBDojwoZ789yEnxBlayY7BORNK~fXJn0F3eokf2Euwm1oKkXxEOs7Zc948IyyJF6e62OL10nas8i7CRcPDeHyUMUUCbY0eYSFsbGPuKpicLxvGe6qnztD754fQkcgKq2kjDY-UZhcuk3SouMGssWK0xVNyR~SQC28m5HZKUYCUBY7LZ64YUMWD436j73C~HOvIM4TgbhWDuNnrYKs-ra4owttHedWzuo1G13M3BHZFyXzJzT7xazTg__" alt="" />
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ce/de/b4/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_858fe6635d27ffe72f23" alt="" />
       </div>
       <div className='gallery-image'>
-        <img src="https://s3-alpha-sig.figma.com/img/24ba/eb3d/49c149077e65e33a96fb00f428230432?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=M4LPcBkUgay9d2c~K~qfDlQG-4JeZzcygIGT-xZPt8Q0fvFWQyvvZHRzNwzoCNIQ8I1iS7bTre0B7lG5GSeVlxEHQlyICb01mbtO09HyWhE0lNo866VoWxWSm5Zt6pidrM93cl4nh89fzzGfpWJ3Esn-98dr91uWvjrLzPJsaoV2-tMXnUaFj0YuD828mmqix2mtL1aKFe4lNsHYUaFOuG2FLauMwOvPIRair4r3W7DqVDGkvXS6qibPEyBmXhUk1SrsFaGo2AsNBOOjy27g8v7bQ20dU6pUGdHb~gBb1oClnFGEzZ~dlta6M9yjm67FbqAVCkUh5DStpvblcwIctQ__" alt="" />
+        <img src="https://ychef.files.bbci.co.uk/1920x960/p0cxx951.jpeg" alt="" />
       </div>
       <div className='gallery-image'>
         <img src="https://images.theconversation.com/files/42905/original/8h36gm7n-1393821786.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip" alt="" />

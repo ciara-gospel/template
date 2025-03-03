@@ -7,8 +7,7 @@ export default function Nav() {
         <div className="nav">
             <div className="menu">
                 <div className="logo">
-                <img src="https://s3-alpha-sig.figma.com/img/7b44/3779/e00233c67a961c8bfdf2e37a4a1ceb1b?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qBM8fTq7O2OkzOhp-3pcsviKBwYrLsHlA8dUgxfeNlL3fRH94ijhyDvDABDkhYxO6B5W7D0fJg~Wrey6pj0~B3SsJE3IoIFpGVTAnz5PAkIZNilNNZtxnyae2ABzXq0hpcjrZfqek9Y61lbdWzFFB2e3cgNNJw-D6MYwA3c-OXCWcCsWe2bg3ZzRaA1e68sWimcy34GaIGxg9R9MzMpV3O0e8Z7QAo-sW7tYGFiX~gi0CwLeKVgzHJGXVQT9oPohmKs~cKhsch1KleC8Do6-fs6Q0GF9r12NfzWGerH6RGJ4xbK9J-CyhMcJoYhs90nT3JtvSnrEv404ycxpZB5h4w__" 
-                alt="" />
+                <img src="https://s3-alpha-sig.figma.com/img/7b44/3779/e00233c67a961c8bfdf2e37a4a1ceb1b?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=N9504MoLA-7wKm1kFym93I881KhPBcaCFFJ1NM9GEIbqbttKV3SMj7Wgn2cyInvZXwlNxx-yFZfb0253OobXN3hp19RDVY-u4jptinWJADTA6yOHAfULmbulCfY16lrNfCjeouPe6~42xKFwHzASeRXdhvA6HpZi2-QHeRQ874jIk5yXhHDuLBYQardmJkvQuc8pHF144G7prXpVE41Q57fO3u6NYC6dY828HWrHpL1jD9DNVXlOa9Hc23z45OWvmv8GU0qIWS0qyGHuK62~qRlu90IEKTBChHsgGXfMTZQxfbtBJ2tAVhlzC1pyIYnqK0sDb3sLez6eU1F4TkOYFQ__" alt="" />
                 </div>
                 <div className="options">
                     <nav>
