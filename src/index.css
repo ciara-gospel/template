@@ -550,6 +550,32 @@ footer {
   border: none;
 }
 
+.hero-text {
+  text-align: center;
+
+  & h1 {
+    padding-top: 10rem;
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  & a {
+    color: #fff;
+  }
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.tit {
+  justify-content: center;
+  color: #c7923e;
+}
+
 .top {
   display: flex;
   justify-content: space-between;

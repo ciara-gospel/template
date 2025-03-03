@@ -6,10 +6,10 @@ export default function Herocommon ({ title }) {
         <div className="hero-banner">
             <div className="hero-text">
                 <h1>{title}</h1>
-                <div className='d-flex align-items-center justify-content-space-around g-4 mx-3'>
+                <div className='align'>
                     <a href="/">Home</a>
                     <ArrowRightIcon sx={{fontSize: 20, color: '#c7923e'}}/>
-                    <span>{title}</span>
+                    <span className="tit">{title}</span>
                 </div>
             </div>
         </div>
